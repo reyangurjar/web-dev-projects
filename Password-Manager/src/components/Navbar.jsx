@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav className='bg-slate-800  text-white'>
-        <div className="mycontainer flex items-center  justify-between ">
+        <div className="md:mycontainer  flex items-center  justify-between ">
 
             <div className="logo font-bold text-2xl">
               <span className='text-green-500'>&lt;</span>
@@ -12,9 +12,9 @@ const Navbar = () => {
               </div>
             
         <ul>
-             <li className='flex gap-4'>
+             <li className='flex gap-6 items-center justify-center'>
                  <a className='hover:cursor-pointer hover-bold' href="/">About </a>
-                  <img src="/icons/github.svg" alt="" />
+                  <img className='invert w-8 cursor-pointer' src="/icons/github.svg" alt="" />
              </li>
         </ul>
         </div>
